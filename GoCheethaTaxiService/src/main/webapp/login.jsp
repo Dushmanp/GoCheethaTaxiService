@@ -16,7 +16,7 @@
 
                 <div class="row w-100 mx-0 auth-page" >
                     <div class="col-md-8  col-xl-6 mx-auto">
-                          <div class="alert alert-danger text-center col-md-12 ${exceptionerrorshow}" id="divShowError" role="alert">
+                          <div class="alert  text-center col-md-12 ${exceptionerrorshow}" id="divShowError" role="alert">
 								<span id="showerrormsg" class="text-danger">${exceptionerror}</span>
 								<input type="hidden" id="showerrormsg" value="${exceptionerror}" >
 							</div>
