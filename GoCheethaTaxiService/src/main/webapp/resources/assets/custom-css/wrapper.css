@@ -1,0 +1,36 @@
+﻿@media print {
+    @page {
+        size: A4 landscape;
+    }
+
+    * {
+       
+        zoom: .95;
+    }
+
+   
+
+    div {
+        margin: 0 auto !important;
+    }
+
+    table {
+        border-collapse: collapse !important;
+        margin: 0;
+    }
+
+    table {
+        page-break-inside: auto
+    }
+
+    tr {
+        page-break-inside: avoid !important;
+        page-break-after: auto
+    }
+
+    thead {
+        display: table-header-group
+    }
+}
+}
+
